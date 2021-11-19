@@ -1,0 +1,57 @@
+@import 'breakpoint';
+
+.title {
+  display: flex;
+  font-weight: 300;
+  line-height: 80px;
+  font-size: 70px;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.search {
+  &-line-container {
+    display: flex;
+    margin: 24px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 70px;
+    border: none;
+    width: 100%;
+    border-radius: 0 90px 0 0;
+  }
+
+  &-input {
+    width: 500px;
+    height: 80px;
+    font-size: 24px;
+    padding-left: 70px;
+    border: 1px solid #fff;
+  }
+}
+.btn-search {
+  width: 200px;
+  height: 80px;
+  font-size: 26px;
+  text-transform: uppercase;
+  background: #1eb7ee;
+  border-radius: 0 80px 0 0;
+  text-align: left;
+  padding: 0 20px;
+  font-weight: 700;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    border-radius: 0 40px 0 0;
+    cursor: pointer;
+  }
+}
+
+.not-found {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 25px;
+}

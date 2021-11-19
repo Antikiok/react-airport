@@ -1,0 +1,19 @@
+// @import './style/breakpoint.scss';
+@import './style/variables.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 18px;
+}
+
+body {
+  font-family: sans-serif, Arial, Helvetica;
+  background: #e7efec;
+}
+
+@import './style/flight';
+@import './style/main';
+@import './style/search';

@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 50px 0 50px;
+}
+
+.nav {
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  padding: 0 50px 0 50px;
+  line-height: 60px;
+  overflow: hidden;
+  flex: 1 1 auto;
+
+  &-link {
+    font-size: 24px;
+    text-decoration: none;
+    flex-grow: 1;
+    color: #fff;
+    background: #1eb7ee;
+    width: 100%;
+
+    border-radius: 50px 50px 0 0px;
+    padding-left: 50px;
+    transition: 0.5s;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 28px;
+    &:hover {
+      color: #1eb7ee;
+      background: #fff;
+    }
+  }
+}
+
+.button-active {
+  color: #1eb7ee;
+  background: #fff;
+}
+
+.icon {
+  padding: 10px;
+}
