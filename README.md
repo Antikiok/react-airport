@@ -1,6 +1,6 @@
 <h1> Project on react AirportTable </h1>
 
-<a href="https://antikiok.github.io/react-airport/">Site link</a>
+<a href="https://affectionate-shockley-e0e93b.netlify.app/departures">Site link</a>
 
 <p>Layout supports desktop (up-to-1360) versions</p>
 
