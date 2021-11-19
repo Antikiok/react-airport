@@ -1,6 +1,6 @@
 <h1> Project on react AirportTable </h1>
 
-<a href="https://antikiok.github.io/HTML-CSS-Lesson24/">Site link</a>
+<a href="https://antikiok.github.io/react-airport/">Site link</a>
 
 <p>Layout supports desktop (up-to-1360) versions</p>
 
