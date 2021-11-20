@@ -6,7 +6,7 @@
 
 <p>The tech stack is:</p>
 <ul>
-<li>JavaScriptli></li>
+<li>JavaScript</li>
 <li>React</li>
 <li>Redux</li>
 <li>HTML5</li>
